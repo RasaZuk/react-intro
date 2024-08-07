@@ -1,8 +1,11 @@
+import { Button } from '../button/Button';
+import style from './Sponsors.module.css';
+
 export function Sponsors() {
     return (
-        <section>
-            <a href="#">Sponsor Vite</a>
-            <a href="#">Sponsor Rasa</a>
+        <section className={style.sponsors}>
+            <Button url="#" text="Sponsor Vite" />
+            <Button url="#" text="Sponser Rimantas" />
         </section>
     );
 }
