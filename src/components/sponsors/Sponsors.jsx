@@ -5,7 +5,7 @@ export function Sponsors() {
     return (
         <section className={style.sponsors}>
             <Button url="#" text="Sponsor Vite" />
-            <Button url="#" text="Sponser Rimantas" />
+            <Button url="#" text="Sponser Rasa" />
         </section>
     );
 }
